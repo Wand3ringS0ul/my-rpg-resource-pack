@@ -19,6 +19,8 @@ jobs:
             'official system index': 'https://d2dmd8x0lyn9l8.cloudfront.net/systems.rpg',
             'official system': 'https://d2dmd8x0lyn9l8.cloudfront.net/5e/system.rpg',
             'official systems json': 'https://d2dmd8x0lyn9l8.cloudfront.net/systems.json',
+            'official resources index': 'https://d2dmd8x0lyn9l8.cloudfront.net/5e/resources.rpg',
+            'official resources json': 'https://d2dmd8x0lyn9l8.cloudfront.net/5e/resources.json',
             'sample bulk': 'https://raw.githubusercontent.com/Junk-Pyle/DM-TUZ-Races/main/5e/resources.rpg.gzip',
             'sample resource index': 'https://raw.githubusercontent.com/Junk-Pyle/DM-TUZ-Races/main/5e/resources.rpg',
           }
