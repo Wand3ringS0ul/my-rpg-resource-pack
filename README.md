@@ -1,12 +1,39 @@
 # Dungeons and Dragonballz V3 — RPG Companion 5e expansion
 
-> **Build status: NOT PUBLISHED / NOT APP-INSTALLABLE**
->
-> This repository is a *publishing workspace* for a conversion of the fan-made **Dungeons and Dragonballz V3** Homebrewery PDF. It does **not yet** contain a compiled RPG Companion release. Do not add this repository to RPG Companion until `systems.json`, `systems.rpg`, and the compiled `5e/` output are present and GitHub Pages is enabled.
+## Publication status
 
-## Project scope
+**Compiled release: STAGED on the [gh-pages branch](https://github.com/Wand3ringS0ul/my-rpg-resource-pack/tree/gh-pages).**
 
-The source conversion prepared outside GitHub contains **542 resource candidate files**:
+- The main branch contains 542 converted `.rpg.json` resources and the automated release builder.
+- The `gh-pages` branch now contains all 542 gzip-encoded resource files, the compressed resource index and tar archive, `systems.json`, `systems.rpg`, and the **official 5e v0.9.1 system**.
+- The builder corrected one duplicate resource ID in its generated release; source entries remain unchanged.
+- All 542 JSON payloads passed packaging and structural tests. **An in-app import has not been tested.**
+- **GitHub Pages is not yet enabled**, so do not treat the future site URL as live.
+
+### One GitHub setting still required
+
+Open **[Settings → Pages](https://github.com/Wand3ringS0ul/my-rpg-resource-pack/settings/pages)**. Under **Build and deployment**, choose:
+
+1. **Source:** Deploy from a branch
+2. **Branch:** `gh-pages`
+3. **Folder:** `/(root)`
+4. Click **Save**.
+
+After GitHub confirms publication, your intended resource repository URL is:
+
+https://wand3rings0ul.github.io/my-rpg-resource-pack/
+
+Check `https://wand3rings0ul.github.io/my-rpg-resource-pack/systems.json` loads before adding the repository in RPG Companion.
+
+### Build and update
+
+Every time you modify `systems/5e/resource_instances/`, [Build and publish Dragonballz V3 RPG Companion pack](https://github.com/Wand3ringS0ul/my-rpg-resource-pack/actions/workflows/build-deploy-dbz.yml) rebuilds the compatible output and pushes it to `gh-pages`.
+
+The `gh-pages` branch is automatically generated. **Do not manually edit compiled files on that branch.**
+
+This release is packed using the publicly documented compressed JSON structure and the unmodified official compiled 5e system, rather than running the desktop Dev Tool. In-app testing is still required to verify that each custom resource is interpreted correctly. Rules such as alternate Ki/Stamina/Power tracking and transformations are not automatically enforced by the base 5e engine.
+
+### Included converted entries
 
 | Type | Count |
 |---|---:|
@@ -16,25 +43,10 @@ The source conversion prepared outside GitHub contains **542 resource candidate 
 | Items | 23 |
 | Weapons | 12 |
 | Armor | 6 |
+| **Total** | **542** |
 
-The resources are JSON-syntax-checked, **not compiled or import-tested**. This conversion is an **extension to the normal 5e system**, not a replacement engine. It does not automatically enforce the book's separate Ki, Stamina, Power, progression, technique, transformation, and combat rules; those require manual tracking or additional scripting.
+## Attribution and rights
 
-## Publishing checklist
+This conversion is based on a **third-party fan-created** Dungeons and Dragonballz V3 rulebook. The original creator and the relevant D&D and Dragon Ball rights holders retain their rights. Verify that you have permission to redistribute the original descriptions publicly. RPG Companion's official system sources and their licenses are available at https://github.com/blastervla/rpg-companion-app-systems.
 
-- [x] Repository created and GitHub connection verified.
-- [x] Source conversion and Windows publishing kit prepared in the ChatGPT conversation.
-- [x] Publishing instructions added to this repository.
-- [ ] Obtain permission to redistribute the third-party homebrew descriptions publicly.
-- [x] Upload the complete prepared 5e source conversion (**542 files committed**).
-- [ ] Compile the combined official 5e system and conversion using **RPG Companion Dev Tool** (GitHub Actions > **Prepare 5e Dev Tool workspace** can generate a downloadable combined workspace).
-- [ ] Upload compiled `systems.json`, `systems.rpg`, and `5e/` at the repository root.
-- [ ] Deploy and test GitHub Pages. The workflow **Deploy compiled RPG Companion pack to GitHub Pages** is configured to deploy after compiled release files are committed; repository Pages settings may still require activation or authorization.
-- [ ] Verify the imported resources in RPG Companion.
-
-[Official manual publishing instructions](https://docs.rpg-companion.app/GettingStarted/HostingAResourceRepo) · [RPG Companion Dev Tool](https://rpg-companion.app/dev) · [Project publishing steps](PUBLISHING_STEPS.md)
-
-## Important distribution and attribution notice
-
-This project is derived from a third-party fan-created D&D/Dragon Ball rulebook and uses associated trademarks and creative content. The book's creator and relevant rights holders retain their rights. **Do not assume this repository grants permission to republish the original book.** The preparation package deliberately excludes the full PDF from GitHub; any redistribution of its text should be authorized. This repository is not affiliated with RPG Companion, Wizards of the Coast, or Dragon Ball rights holders.
-
-The official RPG Companion 5e source has its own licensing terms. Keep its original ID, version, and appropriate notices when preparing release files.
+Useful documentation: https://docs.rpg-companion.app/GettingStarted/HostingAResourceRepo.
