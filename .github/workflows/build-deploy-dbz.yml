@@ -1,0 +1,65 @@
+name: Build and publish Dragonballz V3 RPG Companion pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'systems/5e/resource_instances/**'
+      - 'scripts/build_dbz_release.py'
+      - '.github/workflows/build-deploy-dbz.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: dbz-rpg-companion-deploy
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the converted resources
+        uses: actions/checkout@v4
+      - name: Build compatible 5e resource pack
+        run: python3 scripts/build_dbz_release.py --source systems/5e/resource_instances --output release-site
+      - name: Check all release files and decode contents
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import gzip, json, tarfile
+          root=Path("release-site")
+          for path in ("systems.json","systems.rpg","5e/system.rpg","5e/resources.json","5e/resources.rpg","5e/resources.rpg.gzip"):
+              assert (root/path).is_file(), f"Missing file: {path}"
+          systems=json.loads(gzip.decompress((root/"systems.rpg").read_bytes()))["systems"]
+          assert len(systems)==1 and systems[0]["id"]=="5e"
+          resources=json.loads(gzip.decompress((root/"5e/resources.rpg").read_bytes()))["resources"]
+          assert len(resources)==542 and len(set(r["id"] for r in resources))==542
+          with tarfile.open(root/"5e/resources.rpg.gzip", "r:gz") as t:
+              assert len(t.getmembers())==542
+          print("PASS: 542 unique compiled resource payloads and app manifest files")
+          PY
+      - name: Upload downloadable release ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dragonballz-v3-rpg-companion-release
+          path: release-site/
+          retention-days: 30
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload Pages release artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: release-site/
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
