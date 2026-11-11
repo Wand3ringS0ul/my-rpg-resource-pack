@@ -1,0 +1,62 @@
+name: Deploy compiled RPG Companion pack to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'systems.json'
+      - 'systems.rpg'
+      - '5e/**'
+      - '.github/workflows/deploy-rpg-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rpg-companion-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Check for compiled output
+        id: release
+        shell: bash
+        run: |
+          if [[ -f systems.json && -f systems.rpg && -d 5e ]]; then
+            python3 -m json.tool systems.json >/dev/null
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::This repository contains source resources only. Build a release with the RPG Companion Dev Tool before deploying."
+          fi
+      - name: Prepare deploy folder
+        if: steps.release.outputs.ready == 'true'
+        run: |
+          mkdir -p site
+          cp systems.json systems.rpg site/
+          cp -a 5e site/
+          touch site/.nojekyll
+      - name: Configure GitHub Pages
+        if: steps.release.outputs.ready == 'true'
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - name: Upload GitHub Pages artifact
+        if: steps.release.outputs.ready == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy GitHub Pages
+        if: steps.release.outputs.ready == 'true'
+        id: deploy
+        uses: actions/deploy-pages@v4
