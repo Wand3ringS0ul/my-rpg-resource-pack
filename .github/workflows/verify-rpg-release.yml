@@ -1,0 +1,43 @@
+name: Check RPG Companion release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Inspect release files
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          root=Path('.')
+          required=['systems.json','systems.rpg','5e']
+          missing=[str(p) for p in required if not (root/p).exists()]
+          resources=list(root.glob('systems/5e/resource_instances/*.rpg.json'))
+          for p in resources:
+              try:
+                  data=json.loads(p.read_text(encoding='utf-8'))
+                  assert isinstance(data,dict)
+                  assert data.get('resource_id'), f'{p}: missing resource_id'
+              except Exception as exc:
+                  raise SystemExit(f'Invalid resource {p}: {exc}') from exc
+          summary=Path(__import__('os').environ['GITHUB_STEP_SUMMARY'])
+          if missing:
+              print('Source-only / NOT APP-INSTALLABLE. Missing compiled files: '+', '.join(missing))
+              summary.write_text('## RPG Companion publishing status\n\n⚠️ Not app-installable yet. Missing: '+', '.join(missing)+'\n')
+          else:
+              json.loads((root/'systems.json').read_text(encoding='utf-8'))
+              print('Compiled file structure is present. In-app import still requires manual testing.')
+              summary.write_text('## RPG Companion publishing status\n\n✅ Release file structure present. In-app import not checked.\n')
+          print(f'Validated {len(resources)} candidate source JSON files.')
+          PY
