@@ -1,0 +1,46 @@
+name: Prepare 5e Dev Tool workspace
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out converted D&DBZ resources
+        uses: actions/checkout@v4
+        with:
+          path: dbz
+      - name: Check out official RPG Companion system sources
+        uses: actions/checkout@v4
+        with:
+          repository: blastervla/rpg-companion-app-systems
+          ref: master
+          path: official
+      - name: Assemble workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f official/systems/5e/system/system.rpg.json
+          mkdir -p workspace/systems
+          cp -a official/systems/5e workspace/systems/5e
+          cp -a dbz/systems/5e/resource_instances/*.rpg.json workspace/systems/5e/resource_instances/
+          count=$(find dbz/systems/5e/resource_instances -maxdepth 1 -name '*.rpg.json' | wc -l)
+          echo "Prepared $count Dragon Ball resources"
+          test "$count" -eq 542
+          cat > workspace/README.txt <<'END'
+          Select the systems folder in the official RPG Companion Dev Tool.
+          Choose Create Release Package to compile the system.
+          Publish only the compiled contents (systems.json, systems.rpg, 5e/).
+          IMPORTANT: Please confirm redistribution permission for the
+          third-party Homebrewery rulebook before releasing its descriptions.
+          END
+      - name: Upload prepared source workspace
+        uses: actions/upload-artifact@v4
+        with:
+          name: dragonballz-v3-5e-devtool-workspace
+          path: workspace/
+          retention-days: 30
