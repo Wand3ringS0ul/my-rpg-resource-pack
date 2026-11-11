@@ -1,0 +1,41 @@
+name: Inspect RPG Companion release format
+on:
+  push:
+    paths:
+      - .github/workflows/inspect-rpg-release.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect official 5e and published example
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request, gzip, json
+          files = {
+            'official system index': 'https://d2dmd8x0lyn9l8.cloudfront.net/systems.rpg',
+            'official system': 'https://d2dmd8x0lyn9l8.cloudfront.net/5e/system.rpg',
+            'official systems json': 'https://d2dmd8x0lyn9l8.cloudfront.net/systems.json',
+            'sample bulk': 'https://raw.githubusercontent.com/Junk-Pyle/DM-TUZ-Races/main/5e/resources.rpg.gzip',
+            'sample resource index': 'https://raw.githubusercontent.com/Junk-Pyle/DM-TUZ-Races/main/5e/resources.rpg',
+          }
+          for name, url in files.items():
+            print('\n',name,url)
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+              with urllib.request.urlopen(req,timeout=20) as r: data=r.read()
+              print('len:',len(data),'prefix:',repr(data[:32]))
+              if data[:2]==bytes([31,139]):
+                decoded=gzip.decompress(data)
+                print('GZIP decoded length',len(decoded),'first bytes',repr(decoded[:400]))
+                try:
+                  obj=json.loads(decoded)
+                  print('JSON type',type(obj).__name__,'keys',list(obj)[:10] if isinstance(obj,dict) else len(obj))
+                except Exception as e:
+                  print('decompressed data not JSON:',str(e))
+              else: print('raw preview',repr(data[:400]))
+            except Exception as e: print('FAILED:',repr(e))
+          PY
