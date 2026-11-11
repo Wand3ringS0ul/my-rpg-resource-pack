@@ -1,6 +1,11 @@
 name: Prepare 5e Dev Tool workspace
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'systems/5e/resource_instances/**'
+      - '.github/workflows/prepare-dbz-workspace.yml'
   workflow_dispatch:
 
 permissions:
