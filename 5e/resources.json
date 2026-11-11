@@ -1,0 +1,3256 @@
+{
+  "resources": [
+    {
+      "id": "c9eeb8dd-a008-5167-a910-e743f0b3369f",
+      "name": "Heavy Battle Armor",
+      "path": "resources/armor_dbzv3_heavy_battle_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "9d2e15db-eb6c-5fe5-80fe-e1dc294d1a1e",
+      "name": "Heavy Elite Armor",
+      "path": "resources/armor_dbzv3_heavy_elite_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "85609703-7225-5d00-90ca-07fb9db7dd6e",
+      "name": "Light Battle Armor",
+      "path": "resources/armor_dbzv3_light_battle_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "10aa1409-57f1-54e3-80da-cb01306054d3",
+      "name": "Medium Battle Armor",
+      "path": "resources/armor_dbzv3_medium_battle_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "4bb8d5f4-6c60-5a1c-90df-1aef59ba9aaa",
+      "name": "Medium Elite Armor",
+      "path": "resources/armor_dbzv3_medium_elite_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "e5a8ff03-710c-5448-9758-6901d82a0b26",
+      "name": "Padded Gi",
+      "path": "resources/armor_dbzv3_padded_gi.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_agent",
+      "name": "Agent",
+      "path": "resources/class_agent.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_blaster",
+      "name": "Blaster",
+      "path": "resources/class_blaster.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_bruiser",
+      "name": "Bruiser",
+      "path": "resources/class_bruiser.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_elite",
+      "name": "Elite",
+      "path": "resources/class_elite.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_hero",
+      "name": "Hero",
+      "path": "resources/class_hero.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_martial_artist",
+      "name": "Martial Artist",
+      "path": "resources/class_martial_artist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_mystic",
+      "name": "Mystic",
+      "path": "resources/class_mystic.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_prodigy",
+      "name": "Prodigy",
+      "path": "resources/class_prodigy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_punisher",
+      "name": "Punisher",
+      "path": "resources/class_punisher.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_warrior",
+      "name": "Warrior",
+      "path": "resources/class_warrior.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "5c01f1e8-ddb1-5a23-a7c3-9ee29e56cd2a",
+      "name": "DBZ Rule - Character Creation and Progression",
+      "path": "resources/feat_dbzv3_dbz_rule_character_creation_and_progression.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "c5a7f7b2-8bea-554f-bba3-530f3e3c7ec0",
+      "name": "DBZ Rule - Custom Conditions",
+      "path": "resources/feat_dbzv3_dbz_rule_custom_conditions.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "d345f7fd-7503-5605-8d9a-7b662801d135",
+      "name": "DBZ Rule - God Ki, Power and Ki Ranks",
+      "path": "resources/feat_dbzv3_dbz_rule_god_ki_power_and_ki_ranks.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "c0df27c8-17d8-5e19-a49a-7cee778d73e6",
+      "name": "DBZ Rule - Ki and Ki Exhaustion",
+      "path": "resources/feat_dbzv3_dbz_rule_ki_and_ki_exhaustion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "b137e20d-7556-5626-b875-5afba790b9b1",
+      "name": "DBZ Rule - Stamina and Maneuvers",
+      "path": "resources/feat_dbzv3_dbz_rule_stamina_and_maneuvers.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "3231bf96-5cb6-559f-aa51-cd9feb34498e",
+      "name": "DBZ Rule - Technique Casting, Charging and Clashes",
+      "path": "resources/feat_dbzv3_dbz_rule_technique_casting_charging_and_clashes.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "93465d16-8814-5a81-8597-fcee31286f89",
+      "name": "DBZ Rule - Training and Training Boons",
+      "path": "resources/feat_dbzv3_dbz_rule_training_and_training_boons.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "8ae3222b-c26f-5cb4-9d88-59cba7bb6bd7",
+      "name": "DBZ Rule - Transformations and Power-Ups",
+      "path": "resources/feat_dbzv3_dbz_rule_transformations_and_power_ups.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "f6c624ed-c12a-5cd7-b83e-d35882d8e920",
+      "name": "DBZ Rule - Zeni and Economy",
+      "path": "resources/feat_dbzv3_dbz_rule_zeni_and_economy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_black_star_dragon_balls_gear",
+      "name": "Black Star Dragon Balls [Gear]",
+      "path": "resources/feat_equipment_black_star_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_earth_dragon_balls_gear",
+      "name": "Earth Dragon Balls [Gear]",
+      "path": "resources/feat_equipment_earth_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_fruit_of_the_tree_of_might_gear",
+      "name": "Fruit of the Tree of Might [Gear]",
+      "path": "resources/feat_equipment_fruit_of_the_tree_of_might.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_hetaptm_stamina_potion_gear",
+      "name": "Hetap™ (Stamina Potion) [Gear]",
+      "path": "resources/feat_equipment_hetaptm_stamina_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_kintoun_flying_nimbus_gear",
+      "name": "Kinto’un (Flying Nimbus) [Gear]",
+      "path": "resources/feat_equipment_kintoun_flying_nimbus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_laser_weapons_gear",
+      "name": "Laser Weapons [Gear]",
+      "path": "resources/feat_equipment_laser_weapons.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_manaito_dragon_balls_gear",
+      "name": "Manaito Dragon Balls [Gear]",
+      "path": "resources/feat_equipment_manaito_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_namekian_dragon_balls_gear",
+      "name": "Namekian Dragon Balls [Gear]",
+      "path": "resources/feat_equipment_namekian_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_pheonix_plant_gear",
+      "name": "Pheonix Plant [Gear]",
+      "path": "resources/feat_equipment_pheonix_plant.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_potara_earrings_gear",
+      "name": "Potara earrings [Gear]",
+      "path": "resources/feat_equipment_potara_earrings.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_sage_water_ki_potion_gear",
+      "name": "Sage Water (Ki Potion) [Gear]",
+      "path": "resources/feat_equipment_sage_water_ki_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_scouters_gear",
+      "name": "Scouters [Gear]",
+      "path": "resources/feat_equipment_scouters.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_senzu_beans_gear",
+      "name": "Senzu Beans [Gear]",
+      "path": "resources/feat_equipment_senzu_beans.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_shenron_scale_gear",
+      "name": "Shenron Scale [Gear]",
+      "path": "resources/feat_equipment_shenron_scale.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_super_dragon_balls_gear",
+      "name": "Super Dragon Balls [Gear]",
+      "path": "resources/feat_equipment_super_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_ultra_divine_water_gear",
+      "name": "Ultra Divine Water [Gear]",
+      "path": "resources/feat_equipment_ultra_divine_water.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_equipment_vitadrink_health_potion_gear",
+      "name": "Vitadrink (Health Potion) [Gear]",
+      "path": "resources/feat_equipment_vitadrink_health_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_actor_feat",
+      "name": "Actor [Feat]",
+      "path": "resources/feat_feat_actor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_alert_feat",
+      "name": "Alert [Feat]",
+      "path": "resources/feat_feat_alert.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_alien_feat",
+      "name": "Alien [Feat]",
+      "path": "resources/feat_feat_alien.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_an_age_old_prophecy_feat",
+      "name": "An age-old prophecy [Feat]",
+      "path": "resources/feat_feat_an_age_old_prophecy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_arcosian_feat",
+      "name": "Arcosian [Feat]",
+      "path": "resources/feat_feat_arcosian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_athlete_feat",
+      "name": "Athlete [Feat]",
+      "path": "resources/feat_feat_athlete.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_battle_jacket_crafter_feat",
+      "name": "Battle Jacket Crafter [Feat]",
+      "path": "resources/feat_feat_battle_jacket_crafter.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_beyond_ssgss_feat",
+      "name": "Beyond SSGSS [Feat]",
+      "path": "resources/feat_feat_beyond_ssgss.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_beyond_ssgss_2_feat",
+      "name": "Beyond SSGSS 2 [Feat]",
+      "path": "resources/feat_feat_beyond_ssgss_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_blinding_divinity_feat",
+      "name": "Blinding Divinity [Feat]",
+      "path": "resources/feat_feat_blinding_divinity.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_blood_of_sesa_feat",
+      "name": "Blood of Sesa [Feat]",
+      "path": "resources/feat_feat_blood_of_sesa.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_blue_evolved_feat",
+      "name": "Blue Evolved [Feat]",
+      "path": "resources/feat_feat_blue_evolved.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_cerelian_feat",
+      "name": "Cerelian [Feat]",
+      "path": "resources/feat_feat_cerelian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_chef_feat",
+      "name": "Chef [Feat]",
+      "path": "resources/feat_feat_chef.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_chronin_feat",
+      "name": "Chronin [Feat]",
+      "path": "resources/feat_feat_chronin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_controlled_crazed_feat",
+      "name": "Controlled Crazed [Feat]",
+      "path": "resources/feat_feat_controlled_crazed.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_crusher_feat",
+      "name": "Crusher [Feat]",
+      "path": "resources/feat_feat_crusher.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_dark_pride_feat",
+      "name": "Dark Pride [Feat]",
+      "path": "resources/feat_feat_dark_pride.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_dark_saiyan_feat",
+      "name": "Dark Saiyan [Feat]",
+      "path": "resources/feat_feat_dark_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_deadly_absorption_feat",
+      "name": "Deadly absorption [Feat]",
+      "path": "resources/feat_feat_deadly_absorption.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_defensive_duelist_feat",
+      "name": "Defensive Duelist [Feat]",
+      "path": "resources/feat_feat_defensive_duelist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_divine_combination_feat",
+      "name": "Divine Combination [Feat]",
+      "path": "resources/feat_feat_divine_combination.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_divine_resilience_feat",
+      "name": "Divine Resilience [Feat]",
+      "path": "resources/feat_feat_divine_resilience.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_dna_specialization_feat",
+      "name": "DNA Specialization [Feat]",
+      "path": "resources/feat_feat_dna_specialization.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_duel_wielder_feat",
+      "name": "Duel-Wielder [Feat]",
+      "path": "resources/feat_feat_duel_wielder.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_dungeon_delver_feat",
+      "name": "Dungeon Delver [Feat]",
+      "path": "resources/feat_feat_dungeon_delver.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_durable_feat",
+      "name": "Durable [Feat]",
+      "path": "resources/feat_feat_durable.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_earthling_feat",
+      "name": "Earthling [Feat]",
+      "path": "resources/feat_feat_earthling.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_egotistical_lust_feat",
+      "name": "Egotistical Lust [Feat]",
+      "path": "resources/feat_feat_egotistical_lust.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_egotistical_strength_feat",
+      "name": "Egotistical Strength [Feat]",
+      "path": "resources/feat_feat_egotistical_strength.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_egotistical_vigor_feat",
+      "name": "Egotistical Vigor [Feat]",
+      "path": "resources/feat_feat_egotistical_vigor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_emperial_wrath_feat",
+      "name": "Emperial Wrath [Feat]",
+      "path": "resources/feat_feat_emperial_wrath.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_eureka_feat",
+      "name": "Eureka! [Feat]",
+      "path": "resources/feat_feat_eureka.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_fighting_adaptability_feat",
+      "name": "Fighting Adaptability [Feat]",
+      "path": "resources/feat_feat_fighting_adaptability.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_fighting_initiate_feat",
+      "name": "Fighting Initiate [Feat]",
+      "path": "resources/feat_feat_fighting_initiate.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_firearm_expert_feat",
+      "name": "Firearm Expert [Feat]",
+      "path": "resources/feat_feat_firearm_expert.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_full_assimilation_feat",
+      "name": "Full Assimilation [Feat]",
+      "path": "resources/feat_feat_full_assimilation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_general_upgrade_feat",
+      "name": "General Upgrade [Feat]",
+      "path": "resources/feat_feat_general_upgrade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_golden_great_ape_feat",
+      "name": "Golden Great Ape [Feat]",
+      "path": "resources/feat_feat_golden_great_ape.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_golden_monkey_king_feat",
+      "name": "Golden Monkey King [Feat]",
+      "path": "resources/feat_feat_golden_monkey_king.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_grappler_feat",
+      "name": "Grappler [Feat]",
+      "path": "resources/feat_feat_grappler.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_great_ape_feats_feat",
+      "name": "Great Ape Feats [Feat]",
+      "path": "resources/feat_feat_great_ape_feats.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_great_weapon_master_feat",
+      "name": "Great Weapon Master [Feat]",
+      "path": "resources/feat_feat_great_weapon_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_greys_feat",
+      "name": "Greys [Feat]",
+      "path": "resources/feat_feat_greys.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_heavily_armored_feat",
+      "name": "Heavily Armored [Feat]",
+      "path": "resources/feat_feat_heavily_armored.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_heavy_armor_master_feat",
+      "name": "Heavy Armor Master [Feat]",
+      "path": "resources/feat_feat_heavy_armor_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_hubris_of_midus_feat",
+      "name": "Hubris of Midus [Feat]",
+      "path": "resources/feat_feat_hubris_of_midus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_just_like_base_feat",
+      "name": "Just like base [Feat]",
+      "path": "resources/feat_feat_just_like_base.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_kai_sorcery_feat",
+      "name": "Kai Sorcery [Feat]",
+      "path": "resources/feat_feat_kai_sorcery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_kai_versatility_feat",
+      "name": "Kai Versatility [Feat]",
+      "path": "resources/feat_feat_kai_versatility.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_kaio_ken_mastery_feat",
+      "name": "Kaio-ken Mastery [Feat]",
+      "path": "resources/feat_feat_kaio_ken_mastery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_keen_mind_feat",
+      "name": "Keen Mind [Feat]",
+      "path": "resources/feat_feat_keen_mind.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_konastian_feat",
+      "name": "Konastian [Feat]",
+      "path": "resources/feat_feat_konastian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_legendary_chaos_feat",
+      "name": "Legendary Chaos [Feat]",
+      "path": "resources/feat_feat_legendary_chaos.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_legendary_control_feat",
+      "name": "Legendary Control [Feat]",
+      "path": "resources/feat_feat_legendary_control.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_legendary_divinity_feat",
+      "name": "Legendary Divinity [Feat]",
+      "path": "resources/feat_feat_legendary_divinity.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_legendary_mentality_feat",
+      "name": "Legendary Mentality [Feat]",
+      "path": "resources/feat_feat_legendary_mentality.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_legendary_power_feat",
+      "name": "Legendary Power [Feat]",
+      "path": "resources/feat_feat_legendary_power.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_lightly_armored_feat",
+      "name": "Lightly Armored [Feat]",
+      "path": "resources/feat_feat_lightly_armored.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_lucky_feat",
+      "name": "Lucky [Feat]",
+      "path": "resources/feat_feat_lucky.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_mage_slayer_feat",
+      "name": "Mage Slayer [Feat]",
+      "path": "resources/feat_feat_mage_slayer.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_magic_initiate_feat",
+      "name": "Magic Initiate [Feat]",
+      "path": "resources/feat_feat_magic_initiate.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_majin_feat",
+      "name": "Majin [Feat]",
+      "path": "resources/feat_feat_majin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_mashin_jin_feat",
+      "name": "Mashin-jin [Feat]",
+      "path": "resources/feat_feat_mashin_jin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_medium_armor_master_feat",
+      "name": "Medium Armor Master [Feat]",
+      "path": "resources/feat_feat_medium_armor_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_metamoran_fusion_expert_feat",
+      "name": "Metamoran Fusion Expert [Feat]",
+      "path": "resources/feat_feat_metamoran_fusion_expert.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_mobile_feat",
+      "name": "Mobile [Feat]",
+      "path": "resources/feat_feat_mobile.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_moderately_armored_feat",
+      "name": "Moderately Armored [Feat]",
+      "path": "resources/feat_feat_moderately_armored.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_mystic_studies_feat",
+      "name": "Mystic Studies [Feat]",
+      "path": "resources/feat_feat_mystic_studies.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_namekian_feat",
+      "name": "Namekian [Feat]",
+      "path": "resources/feat_feat_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_namekian_armada_feat",
+      "name": "Namekian Armada [Feat]",
+      "path": "resources/feat_feat_namekian_armada.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_namekian_savior_feat",
+      "name": "Namekian Savior [Feat]",
+      "path": "resources/feat_feat_namekian_savior.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_observant_feat",
+      "name": "Observant [Feat]",
+      "path": "resources/feat_feat_observant.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_ogre_feat",
+      "name": "Ogre [Feat]",
+      "path": "resources/feat_feat_ogre.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_perfected_divinity_feat",
+      "name": "Perfected Divinity [Feat]",
+      "path": "resources/feat_feat_perfected_divinity.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_perfected_ultra_instinct_feat",
+      "name": "Perfected Ultra Instinct [Feat]",
+      "path": "resources/feat_feat_perfected_ultra_instinct.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_piercer_feat",
+      "name": "Piercer [Feat]",
+      "path": "resources/feat_feat_piercer.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_polearm_master_feat",
+      "name": "Polearm Master [Feat]",
+      "path": "resources/feat_feat_polearm_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_primal_legend_feat",
+      "name": "Primal Legend [Feat]",
+      "path": "resources/feat_feat_primal_legend.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_quickened_storage_feat",
+      "name": "Quickened Storage [Feat]",
+      "path": "resources/feat_feat_quickened_storage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_realm_of_the_gods_feat",
+      "name": "Realm of the Gods [Feat]",
+      "path": "resources/feat_feat_realm_of_the_gods.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_resilient_feat",
+      "name": "Resilient [Feat]",
+      "path": "resources/feat_feat_resilient.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_s_cell_awakening_feat",
+      "name": "S-cell Awakening [Feat]",
+      "path": "resources/feat_feat_s_cell_awakening.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_saiyan_feat",
+      "name": "Saiyan [Feat]",
+      "path": "resources/feat_feat_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_saiyan_ascension_feat",
+      "name": "Saiyan Ascension [Feat]",
+      "path": "resources/feat_feat_saiyan_ascension.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_saiyan_elite_feat",
+      "name": "Saiyan Elite [Feat]",
+      "path": "resources/feat_feat_saiyan_elite.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_sateery_feat",
+      "name": "Sateery [Feat]",
+      "path": "resources/feat_feat_sateery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_savage_attacker_feat",
+      "name": "Savage Attacker [Feat]",
+      "path": "resources/feat_feat_savage_attacker.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_self_conscious_feat",
+      "name": "Self Conscious [Feat]",
+      "path": "resources/feat_feat_self_conscious.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_sentinel_feat",
+      "name": "Sentinel [Feat]",
+      "path": "resources/feat_feat_sentinel.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_sharpshooter_feat",
+      "name": "Sharpshooter [Feat]",
+      "path": "resources/feat_feat_sharpshooter.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_shield_master_feat",
+      "name": "Shield Master [Feat]",
+      "path": "resources/feat_feat_shield_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_shinling_feat",
+      "name": "Shinling [Feat]",
+      "path": "resources/feat_feat_shinling.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_skehmen_jin_feat",
+      "name": "Skehmen-jin [Feat]",
+      "path": "resources/feat_feat_skehmen_jin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_skill_expert_feat",
+      "name": "Skill Expert [Feat]",
+      "path": "resources/feat_feat_skill_expert.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_skilled_feat",
+      "name": "Skilled [Feat]",
+      "path": "resources/feat_feat_skilled.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_skulker_feat",
+      "name": "Skulker [Feat]",
+      "path": "resources/feat_feat_skulker.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_slasher_feat",
+      "name": "Slasher [Feat]",
+      "path": "resources/feat_feat_slasher.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_spell_sniper_feat",
+      "name": "Spell Sniper [Feat]",
+      "path": "resources/feat_feat_spell_sniper.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_spellbook_of_mekikabura_feat",
+      "name": "Spellbook of Mekikabura [Feat]",
+      "path": "resources/feat_feat_spellbook_of_mekikabura.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_super_saiyan_god_evolution_feat",
+      "name": "Super Saiyan God Evolution [Feat]",
+      "path": "resources/feat_feat_super_saiyan_god_evolution.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_superiority_awakening_feat",
+      "name": "Superiority: Awakening [Feat]",
+      "path": "resources/feat_feat_superiority_awakening.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_superiority_ki_feat",
+      "name": "Superiority: Ki [Feat]",
+      "path": "resources/feat_feat_superiority_ki.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_superiority_melee_weapons_feat",
+      "name": "Superiority: Melee/Weapons [Feat]",
+      "path": "resources/feat_feat_superiority_melee_weapons.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_tavern_brawler_feat",
+      "name": "Tavern Brawler [Feat]",
+      "path": "resources/feat_feat_tavern_brawler.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_telekenetic_feat",
+      "name": "Telekenetic [Feat]",
+      "path": "resources/feat_feat_telekenetic.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_telepathic_feat",
+      "name": "Telepathic [Feat]",
+      "path": "resources/feat_feat_telepathic.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_third_eye_awakening_feat",
+      "name": "Third Eye Awakening [Feat]",
+      "path": "resources/feat_feat_third_eye_awakening.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_time_thief_feat",
+      "name": "Time Thief [Feat]",
+      "path": "resources/feat_feat_time_thief.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_tough_feat",
+      "name": "Tough [Feat]",
+      "path": "resources/feat_feat_tough.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_tri_wielder_feat",
+      "name": "Tri-Wielder [Feat]",
+      "path": "resources/feat_feat_tri_wielder.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_true_body_feat",
+      "name": "True Body [Feat]",
+      "path": "resources/feat_feat_true_body.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_ultra_instinct_mastery_feat",
+      "name": "Ultra Instinct Mastery [Feat]",
+      "path": "resources/feat_feat_ultra_instinct_mastery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_universe_7_saiyan_feats_feat",
+      "name": "Universe 7 Saiyan Feats [Feat]",
+      "path": "resources/feat_feat_universe_7_saiyan_feats.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_unyielding_stamina_feat",
+      "name": "Unyielding Stamina [Feat]",
+      "path": "resources/feat_feat_unyielding_stamina.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_war_caster_feat",
+      "name": "War Caster [Feat]",
+      "path": "resources/feat_feat_war_caster.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_weapon_master_feat",
+      "name": "Weapon Master [Feat]",
+      "path": "resources/feat_feat_weapon_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_weight_acclimation_feat",
+      "name": "Weight Acclimation [Feat]",
+      "path": "resources/feat_feat_weight_acclimation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_weight_training_feat",
+      "name": "Weight Training [Feat]",
+      "path": "resources/feat_feat_weight_training.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_wrestling_control_feat",
+      "name": "Wrestling Control [Feat]",
+      "path": "resources/feat_feat_wrestling_control.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_feat_yardratian_feat",
+      "name": "Yardratian [Feat]",
+      "path": "resources/feat_feat_yardratian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_100_power_fourth_form_form",
+      "name": "100% Power Fourth Form [Form]",
+      "path": "resources/feat_form_100_power_fourth_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_berserker_super_saiyan_form",
+      "name": "Berserker Super Saiyan [Form]",
+      "path": "resources/feat_form_berserker_super_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_berserker_super_saiyan_2_form",
+      "name": "Berserker Super Saiyan 2 [Form]",
+      "path": "resources/feat_form_berserker_super_saiyan_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_berserker_super_saiyan_3_form",
+      "name": "Berserker Super Saiyan 3 [Form]",
+      "path": "resources/feat_form_berserker_super_saiyan_3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_burning_ultra_ego_form",
+      "name": "Burning Ultra Ego [Form]",
+      "path": "resources/feat_form_burning_ultra_ego.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_burst_of_potential_form",
+      "name": "Burst of Potential [Form]",
+      "path": "resources/feat_form_burst_of_potential.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_capacity_breaker_form",
+      "name": "Capacity Breaker [Form]",
+      "path": "resources/feat_form_capacity_breaker.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_complete_ultra_instinct_form",
+      "name": "Complete Ultra Instinct [Form]",
+      "path": "resources/feat_form_complete_ultra_instinct.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_controlled_super_saiyan_form",
+      "name": "Controlled Super Saiyan [Form]",
+      "path": "resources/feat_form_controlled_super_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_controlled_super_saiyan_2_form",
+      "name": "Controlled Super Saiyan 2 [Form]",
+      "path": "resources/feat_form_controlled_super_saiyan_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_controlled_super_saiyan_3_form",
+      "name": "Controlled Super Saiyan 3 [Form]",
+      "path": "resources/feat_form_controlled_super_saiyan_3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_dark_energy_form",
+      "name": "Dark energy [Form]",
+      "path": "resources/feat_form_dark_energy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_dark_energy_techniques_form",
+      "name": "Dark Energy Techniques [Form]",
+      "path": "resources/feat_form_dark_energy_techniques.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_deep_control_form",
+      "name": "Deep Control [Form]",
+      "path": "resources/feat_form_deep_control.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_demon_form_form",
+      "name": "Demon Form [Form]",
+      "path": "resources/feat_form_demon_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_demon_gods_mantle_form",
+      "name": "Demon god’s Mantle [Form]",
+      "path": "resources/feat_form_demon_gods_mantle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_double_red_eye_activation_form",
+      "name": "Double Red Eye Activation [Form]",
+      "path": "resources/feat_form_double_red_eye_activation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_draw_from_the_s_cells_form",
+      "name": "Draw from the S-cells [Form]",
+      "path": "resources/feat_form_draw_from_the_s_cells.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_earthling_potential_form",
+      "name": "Earthling Potential [Form]",
+      "path": "resources/feat_form_earthling_potential.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_fifth_form_form",
+      "name": "Fifth Form [Form]",
+      "path": "resources/feat_form_fifth_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_flowing_dark_energy_form",
+      "name": "Flowing Dark Energy [Form]",
+      "path": "resources/feat_form_flowing_dark_energy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_fourth_form_form",
+      "name": "Fourth Form [Form]",
+      "path": "resources/feat_form_fourth_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_full_power_form",
+      "name": "Full Power [Form]",
+      "path": "resources/feat_form_full_power.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_full_power_super_saiyan_form",
+      "name": "Full Power Super Saiyan [Form]",
+      "path": "resources/feat_form_full_power_super_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_golden_form_form",
+      "name": "Golden form [Form]",
+      "path": "resources/feat_form_golden_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_golden_great_ape_form",
+      "name": "Golden Great Ape [Form]",
+      "path": "resources/feat_form_golden_great_ape.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_grade_2_form",
+      "name": "Grade 2 [Form]",
+      "path": "resources/feat_form_grade_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_grade_3_form",
+      "name": "Grade 3 [Form]",
+      "path": "resources/feat_form_grade_3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_grade_4_form",
+      "name": "Grade 4 [Form]",
+      "path": "resources/feat_form_grade_4.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_great_ape_power_up_form",
+      "name": "Great Ape (Power-Up) [Form]",
+      "path": "resources/feat_form_great_ape_power_up.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_form",
+      "name": "Kaio-Ken! [Form]",
+      "path": "resources/feat_form_kaio_ken.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x10_form",
+      "name": "Kaio-Ken x10! [Form]",
+      "path": "resources/feat_form_kaio_ken_x10.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x100_form",
+      "name": "Kaio-Ken x100! [Form]",
+      "path": "resources/feat_form_kaio_ken_x100.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x1000_form",
+      "name": "Kaio-Ken x1000! [Form]",
+      "path": "resources/feat_form_kaio_ken_x1000.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x20_form",
+      "name": "Kaio-Ken x20! [Form]",
+      "path": "resources/feat_form_kaio_ken_x20.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x200_form",
+      "name": "Kaio-Ken x200! [Form]",
+      "path": "resources/feat_form_kaio_ken_x200.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x4_form",
+      "name": "Kaio-Ken x4! [Form]",
+      "path": "resources/feat_form_kaio_ken_x4.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_kaio_ken_x50_form",
+      "name": "Kaio-Ken x50! [Form]",
+      "path": "resources/feat_form_kaio_ken_x50.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_legendary_grade_2_form",
+      "name": "Legendary Grade 2 [Form]",
+      "path": "resources/feat_form_legendary_grade_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_legendary_grade_3_form",
+      "name": "Legendary Grade 3 [Form]",
+      "path": "resources/feat_form_legendary_grade_3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_legendary_grade_4_form",
+      "name": "Legendary Grade 4 [Form]",
+      "path": "resources/feat_form_legendary_grade_4.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_legendary_super_saiyan_form",
+      "name": "Legendary Super Saiyan [Form]",
+      "path": "resources/feat_form_legendary_super_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_majin_mark_form",
+      "name": "Majin Mark [Form]",
+      "path": "resources/feat_form_majin_mark.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_makyouka_form_form",
+      "name": "Makyouka Form [Form]",
+      "path": "resources/feat_form_makyouka_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_namekian_split_form",
+      "name": "Namekian Split [Form]",
+      "path": "resources/feat_form_namekian_split.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_no_ego_form",
+      "name": "No-Ego [Form]",
+      "path": "resources/feat_form_no_ego.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_obsidian_form_form",
+      "name": "Obsidian form [Form]",
+      "path": "resources/feat_form_obsidian_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_oozarus_fury_form",
+      "name": "Oozaru’s Fury [Form]",
+      "path": "resources/feat_form_oozarus_fury.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_orange_namekian_form",
+      "name": "Orange Namekian [Form]",
+      "path": "resources/feat_form_orange_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_overdrive_form",
+      "name": "Overdrive [Form]",
+      "path": "resources/feat_form_overdrive.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_pure_progress_form",
+      "name": "Pure Progress [Form]",
+      "path": "resources/feat_form_pure_progress.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_pure_super_saiyan_form",
+      "name": "Pure Super Saiyan [Form]",
+      "path": "resources/feat_form_pure_super_saiyan.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_purification_form",
+      "name": "Purification [Form]",
+      "path": "resources/feat_form_purification.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_red_eye_activation_form",
+      "name": "Red Eye Activation [Form]",
+      "path": "resources/feat_form_red_eye_activation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_red_eyed_focus_form",
+      "name": "Red Eyed Focus [Form]",
+      "path": "resources/feat_form_red_eyed_focus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_red_eyed_namekian_form",
+      "name": "Red-Eyed Namekian [Form]",
+      "path": "resources/feat_form_red_eyed_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_second_form_form",
+      "name": "Second Form [Form]",
+      "path": "resources/feat_form_second_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_android_form",
+      "name": "Super Android [Form]",
+      "path": "resources/feat_form_super_android.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_earthling_form",
+      "name": "Super Earthling [Form]",
+      "path": "resources/feat_form_super_earthling.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_full_power_form",
+      "name": "Super Full Power [Form]",
+      "path": "resources/feat_form_super_full_power.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_namekian_form",
+      "name": "Super Namekian [Form]",
+      "path": "resources/feat_form_super_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_1_form",
+      "name": "Super Saiyan 1 [Form]",
+      "path": "resources/feat_form_super_saiyan_1.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_2_form",
+      "name": "Super Saiyan 2 [Form]",
+      "path": "resources/feat_form_super_saiyan_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_3_form",
+      "name": "Super Saiyan 3 [Form]",
+      "path": "resources/feat_form_super_saiyan_3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_3_full_power_form",
+      "name": "Super Saiyan 3 Full Power [Form]",
+      "path": "resources/feat_form_super_saiyan_3_full_power.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_4_form",
+      "name": "Super Saiyan 4 [Form]",
+      "path": "resources/feat_form_super_saiyan_4.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_super_saiyan_god_evolution_form",
+      "name": "Super Saiyan God Evolution [Form]",
+      "path": "resources/feat_form_super_saiyan_god_evolution.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_third_form_form",
+      "name": "Third Form [Form]",
+      "path": "resources/feat_form_third_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_tier_1_form",
+      "name": "Tier 1 [Form]",
+      "path": "resources/feat_form_tier_1.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_tier_2_form",
+      "name": "Tier 2 [Form]",
+      "path": "resources/feat_form_tier_2.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_tier_3_ultimate_form_form",
+      "name": "Tier 3 (Ultimate Form) [Form]",
+      "path": "resources/feat_form_tier_3_ultimate_form.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_tier_4_bestial_potential_form",
+      "name": "Tier 4 (Bestial Potential) [Form]",
+      "path": "resources/feat_form_tier_4_bestial_potential.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_timeless_power_form",
+      "name": "Timeless power [Form]",
+      "path": "resources/feat_form_timeless_power.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_titan_namekian_form",
+      "name": "Titan Namekian [Form]",
+      "path": "resources/feat_form_titan_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_true_ultra_instinct_form",
+      "name": "True Ultra Instinct [Form]",
+      "path": "resources/feat_form_true_ultra_instinct.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_ultimate_android_form",
+      "name": "Ultimate Android [Form]",
+      "path": "resources/feat_form_ultimate_android.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_ultra_ego_form",
+      "name": "Ultra Ego [Form]",
+      "path": "resources/feat_form_ultra_ego.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_ultra_ego_omen_form",
+      "name": "Ultra Ego Omen [Form]",
+      "path": "resources/feat_form_ultra_ego_omen.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_ultra_instinct_omen_form",
+      "name": "Ultra Instinct Omen [Form]",
+      "path": "resources/feat_form_ultra_instinct_omen.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_form_wrath_of_the_saiyans_form",
+      "name": "Wrath of the Saiyans [Form]",
+      "path": "resources/feat_form_wrath_of_the_saiyans.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_action_surge_heroic_feature",
+      "name": "Action Surge [Heroic Feature]",
+      "path": "resources/feat_heroic_action_surge.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_aggressive_aura_heroic_feature",
+      "name": "Aggressive Aura [Heroic Feature]",
+      "path": "resources/feat_heroic_aggressive_aura.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_barrage_master_heroic_feature",
+      "name": "Barrage Master [Heroic Feature]",
+      "path": "resources/feat_heroic_barrage_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_beam_master_heroic_feature",
+      "name": "Beam Master [Heroic Feature]",
+      "path": "resources/feat_heroic_beam_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_blast_master_heroic_feature",
+      "name": "Blast Master [Heroic Feature]",
+      "path": "resources/feat_heroic_blast_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_brutal_critical_heroic_feature",
+      "name": "Brutal Critical [Heroic Feature]",
+      "path": "resources/feat_heroic_brutal_critical.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_clash_instigator_heroic_feature",
+      "name": "Clash Instigator [Heroic Feature]",
+      "path": "resources/feat_heroic_clash_instigator.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_combat_awareness_heroic_feature",
+      "name": "Combat Awareness [Heroic Feature]",
+      "path": "resources/feat_heroic_combat_awareness.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_consecutive_ki_blasts_heroic_feature",
+      "name": "Consecutive ki blasts [Heroic Feature]",
+      "path": "resources/feat_heroic_consecutive_ki_blasts.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_consecutive_melee_strikes_heroic_feature",
+      "name": "Consecutive melee strikes [Heroic Feature]",
+      "path": "resources/feat_heroic_consecutive_melee_strikes.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_defensive_tactics_heroic_feature",
+      "name": "Defensive Tactics [Heroic Feature]",
+      "path": "resources/feat_heroic_defensive_tactics.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_double_weapon_technique_heroic_feature",
+      "name": "Double Weapon Technique [Heroic Feature]",
+      "path": "resources/feat_heroic_double_weapon_technique.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_eager_fighter_heroic_feature",
+      "name": "Eager Fighter [Heroic Feature]",
+      "path": "resources/feat_heroic_eager_fighter.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_eagle_eyed_adaptation_heroic_feature",
+      "name": "Eagle-Eyed Adaptation [Heroic Feature]",
+      "path": "resources/feat_heroic_eagle_eyed_adaptation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_energy_reserve_heroic_feature",
+      "name": "Energy Reserve [Heroic Feature]",
+      "path": "resources/feat_heroic_energy_reserve.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_final_dregs_heroic_feature",
+      "name": "Final dregs [Heroic Feature]",
+      "path": "resources/feat_heroic_final_dregs.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_flexible_weapon_technique_heroic_feature",
+      "name": "Flexible Weapon Technique [Heroic Feature]",
+      "path": "resources/feat_heroic_flexible_weapon_technique.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_flight_heroic_feature",
+      "name": "Flight [Heroic Feature]",
+      "path": "resources/feat_heroic_flight.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_heavy_strikes_heroic_feature",
+      "name": "Heavy strikes [Heroic Feature]",
+      "path": "resources/feat_heroic_heavy_strikes.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_hes_fast_heroic_feature",
+      "name": "He’s Fast! [Heroic Feature]",
+      "path": "resources/feat_heroic_hes_fast.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_hyper_focus_heroic_feature",
+      "name": "Hyper Focus [Heroic Feature]",
+      "path": "resources/feat_heroic_hyper_focus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_i_wont_give_up_heroic_feature",
+      "name": "I won’t give up! [Heroic Feature]",
+      "path": "resources/feat_heroic_i_wont_give_up.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_ill_take_it_heroic_feature",
+      "name": "I’ll Take It!!! [Heroic Feature]",
+      "path": "resources/feat_heroic_ill_take_it.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_im_putting_it_all_into_this_heroic_feature",
+      "name": "I’m Putting It All Into This [Heroic Feature]",
+      "path": "resources/feat_heroic_im_putting_it_all_into_this.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_improved_critical_heroic_feature",
+      "name": "Improved Critical [Heroic Feature]",
+      "path": "resources/feat_heroic_improved_critical.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_indomitable_heroic_feature",
+      "name": "Indomitable [Heroic Feature]",
+      "path": "resources/feat_heroic_indomitable.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_ki_control_heroic_feature",
+      "name": "Ki Control [Heroic Feature]",
+      "path": "resources/feat_heroic_ki_control.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_ki_flow_heroic_feature",
+      "name": "Ki Flow [Heroic Feature]",
+      "path": "resources/feat_heroic_ki_flow.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_ki_pool_training_heroic_feature",
+      "name": "Ki Pool Training [Heroic Feature]",
+      "path": "resources/feat_heroic_ki_pool_training.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_martial_arts_devotee_heroic_feature",
+      "name": "Martial Arts Devotee [Heroic Feature]",
+      "path": "resources/feat_heroic_martial_arts_devotee.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_martial_arts_superiority_heroic_feature",
+      "name": "Martial Arts Superiority [Heroic Feature]",
+      "path": "resources/feat_heroic_martial_arts_superiority.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_metamagic_heroic_feature",
+      "name": "Metamagic [Heroic Feature]",
+      "path": "resources/feat_heroic_metamagic.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_omni_master_heroic_feature",
+      "name": "Omni Master [Heroic Feature]",
+      "path": "resources/feat_heroic_omni_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_plot_armor_heroic_feature",
+      "name": "Plot Armor [Heroic Feature]",
+      "path": "resources/feat_heroic_plot_armor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_power_up_mastery_heroic_feature",
+      "name": "Power-Up Mastery [Heroic Feature]",
+      "path": "resources/feat_heroic_power_up_mastery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_powered_up_to_the_limit_heroic_feature",
+      "name": "Powered-Up To The Limit [Heroic Feature]",
+      "path": "resources/feat_heroic_powered_up_to_the_limit.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_pressure_points_heroic_feature",
+      "name": "Pressure Points [Heroic Feature]",
+      "path": "resources/feat_heroic_pressure_points.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_range_master_heroic_feature",
+      "name": "Range Master [Heroic Feature]",
+      "path": "resources/feat_heroic_range_master.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_reckless_attack_heroic_feature",
+      "name": "Reckless Attack [Heroic Feature]",
+      "path": "resources/feat_heroic_reckless_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_redirect_attack_heroic_feature",
+      "name": "Redirect Attack [Heroic Feature]",
+      "path": "resources/feat_heroic_redirect_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_second_nature_heroic_feature",
+      "name": "Second Nature [Heroic Feature]",
+      "path": "resources/feat_heroic_second_nature.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_spirit_burst_heroic_feature",
+      "name": "Spirit Burst [Heroic Feature]",
+      "path": "resources/feat_heroic_spirit_burst.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_steadfast_strikes_heroic_feature",
+      "name": "Steadfast Strikes [Heroic Feature]",
+      "path": "resources/feat_heroic_steadfast_strikes.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_super_stamina_heroic_feature",
+      "name": "Super Stamina [Heroic Feature]",
+      "path": "resources/feat_heroic_super_stamina.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_supercharged_ki_blast_heroic_feature",
+      "name": "Supercharged ki blast [Heroic Feature]",
+      "path": "resources/feat_heroic_supercharged_ki_blast.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_survivor_heroic_feature",
+      "name": "Survivor [Heroic Feature]",
+      "path": "resources/feat_heroic_survivor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_the_warm_up_is_over_heroic_feature",
+      "name": "The Warm-Up Is Over [Heroic Feature]",
+      "path": "resources/feat_heroic_the_warm_up_is_over.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_theres_no_holding_back_heroic_feature",
+      "name": "There’s No Holding Back [Heroic Feature]",
+      "path": "resources/feat_heroic_theres_no_holding_back.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_thick_skinned_heroic_feature",
+      "name": "Thick skinned [Heroic Feature]",
+      "path": "resources/feat_heroic_thick_skinned.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_transformation_mastery_heroic_feature",
+      "name": "Transformation Mastery [Heroic Feature]",
+      "path": "resources/feat_heroic_transformation_mastery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_unlock_latent_energy_heroic_feature",
+      "name": "Unlock Latent Energy [Heroic Feature]",
+      "path": "resources/feat_heroic_unlock_latent_energy.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_heroic_z_soul_heroic_feature",
+      "name": "Z-Soul [Heroic Feature]",
+      "path": "resources/feat_heroic_z_soul.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_crane_style_stance",
+      "name": "Crane Style [Stance]",
+      "path": "resources/feat_stance_crane_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_demon_style_stance",
+      "name": "Demon Style [Stance]",
+      "path": "resources/feat_stance_demon_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_emperor_style_stance",
+      "name": "Emperor Style [Stance]",
+      "path": "resources/feat_stance_emperor_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_future_style_stance",
+      "name": "Future Style [Stance]",
+      "path": "resources/feat_stance_future_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_magic_style_stance",
+      "name": "Magic Style [Stance]",
+      "path": "resources/feat_stance_magic_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_saiyan_style_stance",
+      "name": "Saiyan Style [Stance]",
+      "path": "resources/feat_stance_saiyan_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_turtle_style_stance",
+      "name": "Turtle Style [Stance]",
+      "path": "resources/feat_stance_turtle_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_stance_wolf_style_stance",
+      "name": "Wolf Style [Stance]",
+      "path": "resources/feat_stance_wolf_style.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_big_gete_features_subrace",
+      "name": "Big-Gete Features [Subrace]",
+      "path": "resources/feat_subrace_big_gete_features.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_cybernetic_features_subrace",
+      "name": "Cybernetic Features [Subrace]",
+      "path": "resources/feat_subrace_cybernetic_features.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_explosive_temper_subrace",
+      "name": "Explosive Temper [Subrace]",
+      "path": "resources/feat_subrace_explosive_temper.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_hybrids_subrace",
+      "name": "Hybrids [Subrace]",
+      "path": "resources/feat_subrace_hybrids.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_like_the_wind_subrace",
+      "name": "Like the Wind [Subrace]",
+      "path": "resources/feat_subrace_like_the_wind.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_neo_mutant_features_wip_subrace",
+      "name": "Neo-Mutant Features (WIP) [Subrace]",
+      "path": "resources/feat_subrace_neo_mutant_features_wip.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_quicker_then_the_rest_subrace",
+      "name": "Quicker then the rest [Subrace]",
+      "path": "resources/feat_subrace_quicker_then_the_rest.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_reincarnation_subrace",
+      "name": "Reincarnation [Subrace]",
+      "path": "resources/feat_subrace_reincarnation.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_speed_force_subrace",
+      "name": "Speed Force [Subrace]",
+      "path": "resources/feat_subrace_speed_force.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_speedster_subrace",
+      "name": "Speedster [Subrace]",
+      "path": "resources/feat_subrace_speedster.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_subrace_variants_subrace",
+      "name": "Variants [Subrace]",
+      "path": "resources/feat_subrace_variants.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_100x_solar_flare_technique",
+      "name": "100x Solar Flare [Technique]",
+      "path": "resources/feat_technique_100x_solar_flare.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_afterimage_technique",
+      "name": "Afterimage [Technique]",
+      "path": "resources/feat_technique_afterimage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_all_clear_technique",
+      "name": "All Clear [Technique]",
+      "path": "resources/feat_technique_all_clear.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_all_out_technique",
+      "name": "All Out! [Technique]",
+      "path": "resources/feat_technique_all_out.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_amazing_impact_technique",
+      "name": "Amazing Impact [Technique]",
+      "path": "resources/feat_technique_amazing_impact.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_angry_hit_technique",
+      "name": "Angry Hit [Technique]",
+      "path": "resources/feat_technique_angry_hit.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_angry_shout_technique",
+      "name": "Angry Shout [Technique]",
+      "path": "resources/feat_technique_angry_shout.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_arm_break_technique",
+      "name": "Arm Break [Technique]",
+      "path": "resources/feat_technique_arm_break.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_armor_break_technique",
+      "name": "Armor Break [Technique]",
+      "path": "resources/feat_technique_armor_break.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_aura_lariot_technique",
+      "name": "Aura Lariot [Technique]",
+      "path": "resources/feat_technique_aura_lariot.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_aura_shield_technique",
+      "name": "Aura Shield [Technique]",
+      "path": "resources/feat_technique_aura_shield.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_big_bang_attack_technique",
+      "name": "Big Bang Attack [Technique]",
+      "path": "resources/feat_technique_big_bang_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_big_bang_final_flash_technique",
+      "name": "Big Bang Final Flash [Technique]",
+      "path": "resources/feat_technique_big_bang_final_flash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_big_bang_grenade_technique",
+      "name": "Big Bang Grenade [Technique]",
+      "path": "resources/feat_technique_big_bang_grenade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_big_bang_kamehameha_technique",
+      "name": "Big Bang Kamehameha [Technique]",
+      "path": "resources/feat_technique_big_bang_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_black_kamehameha_technique",
+      "name": "Black Kamehameha [Technique]",
+      "path": "resources/feat_technique_black_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_blaster_meteor_technique",
+      "name": "Blaster Meteor [Technique]",
+      "path": "resources/feat_technique_blaster_meteor.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_blinding_wolf_fang_fist_technique",
+      "name": "Blinding Wolf Fang Fist [Technique]",
+      "path": "resources/feat_technique_blinding_wolf_fang_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_blitz_technique",
+      "name": "Blitz [Technique]",
+      "path": "resources/feat_technique_blitz.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_blitz_rush_technique",
+      "name": "Blitz rush [Technique]",
+      "path": "resources/feat_technique_blitz_rush.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_bonk_technique",
+      "name": "Bonk! [Technique]",
+      "path": "resources/feat_technique_bonk.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_brave_flurry_technique",
+      "name": "Brave Flurry [Technique]",
+      "path": "resources/feat_technique_brave_flurry.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_brave_slash_technique",
+      "name": "Brave Slash [Technique]",
+      "path": "resources/feat_technique_brave_slash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_brave_weapon_attack_technique",
+      "name": "Brave Weapon Attack [Technique]",
+      "path": "resources/feat_technique_brave_weapon_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_breakstorm_technique",
+      "name": "Breakstorm [Technique]",
+      "path": "resources/feat_technique_breakstorm.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_burning_attack_technique",
+      "name": "Burning attack [Technique]",
+      "path": "resources/feat_technique_burning_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_burning_rush_technique",
+      "name": "Burning Rush [Technique]",
+      "path": "resources/feat_technique_burning_rush.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_burning_storm_technique",
+      "name": "Burning Storm [Technique]",
+      "path": "resources/feat_technique_burning_storm.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_charge_technique",
+      "name": "Charge! [Technique]",
+      "path": "resources/feat_technique_charge.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "3400f7d6-ecc6-52ba-917c-65d2b89147f8",
+      "name": "Charge [Technique]",
+      "path": "resources/feat_technique_charge_60e690e3.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_confusion_weapon_technique",
+      "name": "Confusion Weapon [Technique]",
+      "path": "resources/feat_technique_confusion_weapon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_consecutive_blasts_technique",
+      "name": "Consecutive Blasts [Technique]",
+      "path": "resources/feat_technique_consecutive_blasts.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_continuous_energy_bullet_technique",
+      "name": "Continuous Energy Bullet [Technique]",
+      "path": "resources/feat_technique_continuous_energy_bullet.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_crane_strike_technique",
+      "name": "Crane Strike [Technique]",
+      "path": "resources/feat_technique_crane_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_crusher_blow_technique",
+      "name": "Crusher Blow [Technique]",
+      "path": "resources/feat_technique_crusher_blow.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_cyclone_technique",
+      "name": "Cyclone [Technique]",
+      "path": "resources/feat_technique_cyclone.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dark_impact_technique",
+      "name": "Dark Impact [Technique]",
+      "path": "resources/feat_technique_dark_impact.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dark_kamehameha_technique",
+      "name": "Dark Kamehameha [Technique]",
+      "path": "resources/feat_technique_dark_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_darkness_flurry_attack_technique",
+      "name": "Darkness Flurry Attack [Technique]",
+      "path": "resources/feat_technique_darkness_flurry_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_deadly_dance_technique",
+      "name": "Deadly Dance [Technique]",
+      "path": "resources/feat_technique_deadly_dance.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_deadly_strike_technique",
+      "name": "Deadly Strike [Technique]",
+      "path": "resources/feat_technique_deadly_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_death_ball_technique",
+      "name": "Death Ball [Technique]",
+      "path": "resources/feat_technique_death_ball.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_death_beam_technique",
+      "name": "Death Beam [Technique]",
+      "path": "resources/feat_technique_death_beam.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_death_crasher_technique",
+      "name": "Death crasher [Technique]",
+      "path": "resources/feat_technique_death_crasher.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_death_saucer_technique",
+      "name": "Death Saucer [Technique]",
+      "path": "resources/feat_technique_death_saucer.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dempsey_roll_technique",
+      "name": "Dempsey Roll [Technique]",
+      "path": "resources/feat_technique_dempsey_roll.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_destructive_cannon_technique",
+      "name": "Destructive Cannon [Technique]",
+      "path": "resources/feat_technique_destructive_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_destructive_rampage_technique",
+      "name": "Destructive Rampage [Technique]",
+      "path": "resources/feat_technique_destructive_rampage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_destructo_disk_technique",
+      "name": "Destructo Disk [Technique]",
+      "path": "resources/feat_technique_destructo_disk.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_destructo_disk_barrage_technique",
+      "name": "Destructo Disk Barrage [Technique]",
+      "path": "resources/feat_technique_destructo_disk_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_die_die_missle_barrage_technique",
+      "name": "DIE DIE Missle Barrage [Technique]",
+      "path": "resources/feat_technique_die_die_missle_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dimensional_flurry_attack_technique",
+      "name": "Dimensional Flurry Attack [Technique]",
+      "path": "resources/feat_technique_dimensional_flurry_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_divine_shot_technique",
+      "name": "Divine Shot [Technique]",
+      "path": "resources/feat_technique_divine_shot.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dodon_ray_technique",
+      "name": "Dodon Ray [Technique]",
+      "path": "resources/feat_technique_dodon_ray.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dragon_throw_technique",
+      "name": "Dragon Throw [Technique]",
+      "path": "resources/feat_technique_dragon_throw.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_drill_kick_technique",
+      "name": "Drill kick [Technique]",
+      "path": "resources/feat_technique_drill_kick.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_dynamite_strike_technique",
+      "name": "Dynamite Strike [Technique]",
+      "path": "resources/feat_technique_dynamite_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_elite_combo_technique",
+      "name": "Elite Combo [Technique]",
+      "path": "resources/feat_technique_elite_combo.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_emperors_barrage_technique",
+      "name": "Emperor’s Barrage [Technique]",
+      "path": "resources/feat_technique_emperors_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_erupting_meteor_fist_technique",
+      "name": "Erupting Meteor Fist [Technique]",
+      "path": "resources/feat_technique_erupting_meteor_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_evil_spear_technique",
+      "name": "Evil Spear [Technique]",
+      "path": "resources/feat_technique_evil_spear.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_evil_typhoon_technique",
+      "name": "Evil Typhoon [Technique]",
+      "path": "resources/feat_technique_evil_typhoon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_evil_whirlwind_technique",
+      "name": "Evil Whirlwind [Technique]",
+      "path": "resources/feat_technique_evil_whirlwind.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_explosion_fist_technique",
+      "name": "Explosion Fist [Technique]",
+      "path": "resources/feat_technique_explosion_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_explosive_wave_technique",
+      "name": "Explosive Wave [Technique]",
+      "path": "resources/feat_technique_explosive_wave.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_fient_shot_technique",
+      "name": "Fient Shot [Technique]",
+      "path": "resources/feat_technique_fient_shot.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_final_flash_technique",
+      "name": "Final Flash [Technique]",
+      "path": "resources/feat_technique_final_flash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_final_kamehameha_technique",
+      "name": "Final Kamehameha [Technique]",
+      "path": "resources/feat_technique_final_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_finishing_blow_technique",
+      "name": "Finishing Blow [Technique]",
+      "path": "resources/feat_technique_finishing_blow.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_fissure_slash_technique",
+      "name": "Fissure Slash [Technique]",
+      "path": "resources/feat_technique_fissure_slash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_flurry_technique",
+      "name": "Flurry [Technique]",
+      "path": "resources/feat_technique_flurry.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_flurry_assault_technique",
+      "name": "Flurry Assault [Technique]",
+      "path": "resources/feat_technique_flurry_assault.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_flurry_of_blows_technique",
+      "name": "Flurry of Blows [Technique]",
+      "path": "resources/feat_technique_flurry_of_blows.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_focus_technique",
+      "name": "Focus [Technique]",
+      "path": "resources/feat_technique_focus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_four_witches_technique_technique",
+      "name": "Four Witches Technique [Technique]",
+      "path": "resources/feat_technique_four_witches_technique.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_full_charge_shot_technique",
+      "name": "Full Charge Shot [Technique]",
+      "path": "resources/feat_technique_full_charge_shot.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_full_power_charge_technique",
+      "name": "Full Power Charge [Technique]",
+      "path": "resources/feat_technique_full_power_charge.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_full_power_kamehameha_technique",
+      "name": "Full Power Kamehameha [Technique]",
+      "path": "resources/feat_technique_full_power_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_furious_demon_barrage_technique",
+      "name": "Furious Demon Barrage [Technique]",
+      "path": "resources/feat_technique_furious_demon_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_galactic_donuts_technique",
+      "name": "Galactic Donuts [Technique]",
+      "path": "resources/feat_technique_galactic_donuts.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_galick_gun_technique",
+      "name": "Galick Gun [Technique]",
+      "path": "resources/feat_technique_galick_gun.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_galick_kamehameha_technique",
+      "name": "Galick Kamehameha [Technique]",
+      "path": "resources/feat_technique_galick_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_gigantic_rage_technique",
+      "name": "Gigantic Rage [Technique]",
+      "path": "resources/feat_technique_gigantic_rage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_god_fist_technique",
+      "name": "God Fist [Technique]",
+      "path": "resources/feat_technique_god_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_hammer_fist_technique",
+      "name": "Hammer Fist [Technique]",
+      "path": "resources/feat_technique_hammer_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_hellzone_grenade_technique",
+      "name": "Hellzone Grenade [Technique]",
+      "path": "resources/feat_technique_hellzone_grenade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_hurricane_kick_technique",
+      "name": "Hurricane Kick [Technique]",
+      "path": "resources/feat_technique_hurricane_kick.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_hyper_special_beam_cannon_technique",
+      "name": "Hyper Special Beam Cannon [Technique]",
+      "path": "resources/feat_technique_hyper_special_beam_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_iai_technique",
+      "name": "Iai! [Technique]",
+      "path": "resources/feat_technique_iai.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ill_shoot_you_technique",
+      "name": "I’ll Shoot you! [Technique]",
+      "path": "resources/feat_technique_ill_shoot_you.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_improved_ki_blade_technique",
+      "name": "Improved ki-blade [Technique]",
+      "path": "resources/feat_technique_improved_ki_blade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_infinity_bullet_technique",
+      "name": "Infinity Bullet [Technique]",
+      "path": "resources/feat_technique_infinity_bullet.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_instant_galick_gun_technique",
+      "name": "Instant Galick Gun [Technique]",
+      "path": "resources/feat_technique_instant_galick_gun.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_instant_kamehameha_technique",
+      "name": "Instant Kamehameha [Technique]",
+      "path": "resources/feat_technique_instant_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_kamehame_haha_technique",
+      "name": "Kamehame HAHA [Technique]",
+      "path": "resources/feat_technique_kamehame_haha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_kamehameha_technique",
+      "name": "Kamehameha [Technique]",
+      "path": "resources/feat_technique_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_kamekameha_technique",
+      "name": "Kamekameha [Technique]",
+      "path": "resources/feat_technique_kamekameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_blade_technique",
+      "name": "Ki-Blade [Technique]",
+      "path": "resources/feat_technique_ki_blade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_blast_barrage_technique",
+      "name": "Ki Blast Barrage [Technique]",
+      "path": "resources/feat_technique_ki_blast_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_blast_cannon_technique",
+      "name": "Ki Blast Cannon [Technique]",
+      "path": "resources/feat_technique_ki_blast_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_blast_missle_technique",
+      "name": "Ki Blast Missle [Technique]",
+      "path": "resources/feat_technique_ki_blast_missle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_dash_technique",
+      "name": "Ki-Dash [Technique]",
+      "path": "resources/feat_technique_ki_dash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_empowered_strikes_technique",
+      "name": "Ki Empowered Strikes [Technique]",
+      "path": "resources/feat_technique_ki_empowered_strikes.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_empowerment_technique",
+      "name": "Ki Empowerment [Technique]",
+      "path": "resources/feat_technique_ki_empowerment.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ki_split_technique",
+      "name": "Ki split [Technique]",
+      "path": "resources/feat_technique_ki_split.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_kiai_technique",
+      "name": "Kiai! [Technique]",
+      "path": "resources/feat_technique_kiai.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_light_grenade_technique",
+      "name": "Light Grenade [Technique]",
+      "path": "resources/feat_technique_light_grenade.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_lightning_jab_technique",
+      "name": "Lightning Jab [Technique]",
+      "path": "resources/feat_technique_lightning_jab.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_majin_kamehameha_technique",
+      "name": "Majin Kamehameha [Technique]",
+      "path": "resources/feat_technique_majin_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_masenko_technique",
+      "name": "Masenko [Technique]",
+      "path": "resources/feat_technique_masenko.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_massive_explosive_wave_technique",
+      "name": "Massive Explosive Wave [Technique]",
+      "path": "resources/feat_technique_massive_explosive_wave.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_max_power_energy_wave_technique",
+      "name": "Max Power Energy Wave [Technique]",
+      "path": "resources/feat_technique_max_power_energy_wave.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_maximum_charge_technique",
+      "name": "Maximum Charge [Technique]",
+      "path": "resources/feat_technique_maximum_charge.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_meteor_combo_technique",
+      "name": "Meteor Combo [Technique]",
+      "path": "resources/feat_technique_meteor_combo.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_meteor_strike_technique",
+      "name": "Meteor Strike [Technique]",
+      "path": "resources/feat_technique_meteor_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_minimum_charge_technique",
+      "name": "Minimum Charge [Technique]",
+      "path": "resources/feat_technique_minimum_charge.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_missle_barrage_technique",
+      "name": "Missle Barrage [Technique]",
+      "path": "resources/feat_technique_missle_barrage.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_mouth_cannon_technique",
+      "name": "Mouth Cannon [Technique]",
+      "path": "resources/feat_technique_mouth_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_multi_form_blast_technique",
+      "name": "Multi-Form Blast [Technique]",
+      "path": "resources/feat_technique_multi_form_blast.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_omega_blaster_technique",
+      "name": "Omega Blaster [Technique]",
+      "path": "resources/feat_technique_omega_blaster.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_paralysis_shocker_technique",
+      "name": "Paralysis Shocker [Technique]",
+      "path": "resources/feat_technique_paralysis_shocker.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_parapara_dance_technique",
+      "name": "Parapara Dance [Technique]",
+      "path": "resources/feat_technique_parapara_dance.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_perfect_combo_technique",
+      "name": "Perfect Combo [Technique]",
+      "path": "resources/feat_technique_perfect_combo.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_perfect_energy_wave_technique",
+      "name": "Perfect Energy Wave [Technique]",
+      "path": "resources/feat_technique_perfect_energy_wave.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_piercing_punch_technique",
+      "name": "Piercing Punch [Technique]",
+      "path": "resources/feat_technique_piercing_punch.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_pincushion_technique",
+      "name": "Pincushion [Technique]",
+      "path": "resources/feat_technique_pincushion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_power_rush_technique",
+      "name": "Power Rush [Technique]",
+      "path": "resources/feat_technique_power_rush.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_power_strike_technique",
+      "name": "Power Strike [Technique]",
+      "path": "resources/feat_technique_power_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_power_up_technique",
+      "name": "Power up [Technique]",
+      "path": "resources/feat_technique_power_up.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_pressure_sign_technique",
+      "name": "Pressure Sign [Technique]",
+      "path": "resources/feat_technique_pressure_sign.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_psycho_barrier_technique",
+      "name": "Psycho Barrier [Technique]",
+      "path": "resources/feat_technique_psycho_barrier.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_rakshasa_claw_technique",
+      "name": "Rakshasa Claw [Technique]",
+      "path": "resources/feat_technique_rakshasa_claw.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_rapid_fire_technique",
+      "name": "Rapid Fire! [Technique]",
+      "path": "resources/feat_technique_rapid_fire.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ravenous_claw_technique",
+      "name": "Ravenous Claw [Technique]",
+      "path": "resources/feat_technique_ravenous_claw.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_riot_javelin_technique",
+      "name": "Riot Javelin [Technique]",
+      "path": "resources/feat_technique_riot_javelin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_rush_technique",
+      "name": "Rush! [Technique]",
+      "path": "resources/feat_technique_rush.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_scatter_shot_technique",
+      "name": "Scatter Shot [Technique]",
+      "path": "resources/feat_technique_scatter_shot.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_shining_attack_technique",
+      "name": "Shining Attack [Technique]",
+      "path": "resources/feat_technique_shining_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_shining_slash_technique",
+      "name": "Shining Slash [Technique]",
+      "path": "resources/feat_technique_shining_slash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_shockwave_strike_technique",
+      "name": "Shockwave Strike [Technique]",
+      "path": "resources/feat_technique_shockwave_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_skirmish_technique",
+      "name": "Skirmish [Technique]",
+      "path": "resources/feat_technique_skirmish.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_skyline_blast_technique",
+      "name": "Skyline Blast [Technique]",
+      "path": "resources/feat_technique_skyline_blast.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_soaring_dragon_strike_technique",
+      "name": "Soaring Dragon Strike [Technique]",
+      "path": "resources/feat_technique_soaring_dragon_strike.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_solar_flare_technique",
+      "name": "Solar Flare [Technique]",
+      "path": "resources/feat_technique_solar_flare.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_special_beam_cannon_technique",
+      "name": "Special Beam Cannon [Technique]",
+      "path": "resources/feat_technique_special_beam_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_spirit_bomb_technique",
+      "name": "Spirit Bomb [Technique]",
+      "path": "resources/feat_technique_spirit_bomb.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_spirit_buster_technique",
+      "name": "Spirit Buster [Technique]",
+      "path": "resources/feat_technique_spirit_buster.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_spirit_sword_technique",
+      "name": "Spirit Sword [Technique]",
+      "path": "resources/feat_technique_spirit_sword.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_staggering_clash_technique",
+      "name": "Staggering Clash [Technique]",
+      "path": "resources/feat_technique_staggering_clash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_stardust_breaker_technique",
+      "name": "Stardust Breaker [Technique]",
+      "path": "resources/feat_technique_stardust_breaker.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_destructo_disk_technique",
+      "name": "Super Destructo Disk [Technique]",
+      "path": "resources/feat_technique_super_destructo_disk.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_dragon_fist_technique",
+      "name": "Super Dragon Fist [Technique]",
+      "path": "resources/feat_technique_super_dragon_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_explosive_wave_technique",
+      "name": "Super Explosive Wave [Technique]",
+      "path": "resources/feat_technique_super_explosive_wave.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_galick_gun_technique",
+      "name": "Super Galick Gun [Technique]",
+      "path": "resources/feat_technique_super_galick_gun.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_ghost_guardians_technique",
+      "name": "Super Ghost Guardians [Technique]",
+      "path": "resources/feat_technique_super_ghost_guardians.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_ghost_kamikaze_guardians_technique",
+      "name": "Super Ghost Kamikaze Guardians [Technique]",
+      "path": "resources/feat_technique_super_ghost_kamikaze_guardians.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_ghost_kamikazi_attack_technique",
+      "name": "Super Ghost Kamikazi Attack [Technique]",
+      "path": "resources/feat_technique_super_ghost_kamikazi_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_super_kamehameha_technique",
+      "name": "Super Kamehameha [Technique]",
+      "path": "resources/feat_technique_super_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_supernova_technique",
+      "name": "Supernova [Technique]",
+      "path": "resources/feat_technique_supernova.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_surpass_your_limits_technique",
+      "name": "Surpass Your Limits! [Technique]",
+      "path": "resources/feat_technique_surpass_your_limits.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_tear_them_down_technique",
+      "name": "Tear Them Down [Technique]",
+      "path": "resources/feat_technique_tear_them_down.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_the_ol_one_two_technique",
+      "name": "The Ol’ One-Two [Technique]",
+      "path": "resources/feat_technique_the_ol_one_two.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_thunder_flash_technique",
+      "name": "Thunder Flash [Technique]",
+      "path": "resources/feat_technique_thunder_flash.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_time_breaker_black_hole_technique",
+      "name": "Time Breaker: Black Hole [Technique]",
+      "path": "resources/feat_technique_time_breaker_black_hole.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_tribeam_technique",
+      "name": "Tribeam [Technique]",
+      "path": "resources/feat_technique_tribeam.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_twin_cannon_technique",
+      "name": "Twin Cannon [Technique]",
+      "path": "resources/feat_technique_twin_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ultimate_galick_gun_technique",
+      "name": "Ultimate Galick Gun [Technique]",
+      "path": "resources/feat_technique_ultimate_galick_gun.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ultimate_ghost_guardians_technique",
+      "name": "Ultimate Ghost Guardians [Technique]",
+      "path": "resources/feat_technique_ultimate_ghost_guardians.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_ultimate_ghost_kamikaze_attack_technique",
+      "name": "Ultimate Ghost Kamikaze Attack [Technique]",
+      "path": "resources/feat_technique_ultimate_ghost_kamikaze_attack.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_vulcan_cannon_technique",
+      "name": "Vulcan Cannon [Technique]",
+      "path": "resources/feat_technique_vulcan_cannon.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_warp_kamehameha_technique",
+      "name": "Warp Kamehameha [Technique]",
+      "path": "resources/feat_technique_warp_kamehameha.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_weapon_of_hope_technique",
+      "name": "Weapon of Hope [Technique]",
+      "path": "resources/feat_technique_weapon_of_hope.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_whirlwind_technique",
+      "name": "Whirlwind [Technique]",
+      "path": "resources/feat_technique_whirlwind.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_wolf_fang_fist_technique",
+      "name": "Wolf Fang Fist [Technique]",
+      "path": "resources/feat_technique_wolf_fang_fist.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_technique_z_combo_technique",
+      "name": "Z-Combo [Technique]",
+      "path": "resources/feat_technique_z_combo.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "413f393f-bd74-506b-a416-18afe28b500a",
+      "name": "Black Star Dragon Balls",
+      "path": "resources/item_dbzv3_black_star_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "0c7c535d-6818-55c2-b54e-68a9d42583f9",
+      "name": "Earth Dragon Balls",
+      "path": "resources/item_dbzv3_earth_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "12e65c38-a542-5fb7-853c-03ab635673aa",
+      "name": "Fruit of the Tree of Might",
+      "path": "resources/item_dbzv3_fruit_of_the_tree_of_might.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "2f978cac-54f8-5464-a0ef-f774753b3265",
+      "name": "Hetap™ (Stamina Potion)",
+      "path": "resources/item_dbzv3_hetaptm_stamina_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "1ffb7c1e-e06d-5608-9e38-10a11fb61f94",
+      "name": "Kinto’un (Flying Nimbus)",
+      "path": "resources/item_dbzv3_kintoun_flying_nimbus.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "22d96077-2744-5ff7-8481-6a59499217cb",
+      "name": "Laser Pistol Magazine",
+      "path": "resources/item_dbzv3_laser_pistol_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "55d100e6-95a3-5e20-9bc2-46886776429d",
+      "name": "Laser Rifle Magazine",
+      "path": "resources/item_dbzv3_laser_rifle_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "f0d24018-fdd1-5c8d-aab1-c6c4f77e7090",
+      "name": "Laser Sniper Magazine",
+      "path": "resources/item_dbzv3_laser_sniper_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "1df7dd11-83be-5963-a95b-c50ff0e24c3f",
+      "name": "Manaito Dragon Balls",
+      "path": "resources/item_dbzv3_manaito_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "fa0bb632-71eb-5d6c-9a6f-7c3695dce04d",
+      "name": "Namekian Dragon Balls",
+      "path": "resources/item_dbzv3_namekian_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "d4254a55-c485-5c59-ac77-2377b096bd05",
+      "name": "Pheonix Plant",
+      "path": "resources/item_dbzv3_pheonix_plant.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "81ee34d1-bb11-50bc-ae93-9021bc6a6941",
+      "name": "Pistol Magazine",
+      "path": "resources/item_dbzv3_pistol_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "4a34804c-a054-5588-9fda-5f77cffc59ea",
+      "name": "Potara earrings",
+      "path": "resources/item_dbzv3_potara_earrings.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "d95ff11b-7595-51a0-9ad8-b155cdd09349",
+      "name": "Rifle Magazine",
+      "path": "resources/item_dbzv3_rifle_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "ff5403b8-2139-5a98-9bf4-cd3cd86b49f6",
+      "name": "Sage Water (Ki Potion)",
+      "path": "resources/item_dbzv3_sage_water_ki_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "94cb07a4-7eb1-54c5-932c-2bf5d35aa0fc",
+      "name": "Scouters",
+      "path": "resources/item_dbzv3_scouters.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "85889d05-5d6f-5dc6-9185-8e4b63073bf4",
+      "name": "Senzu Beans",
+      "path": "resources/item_dbzv3_senzu_beans.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "70f436d9-ffc6-5711-8b67-35712281abbe",
+      "name": "Shenron Scale",
+      "path": "resources/item_dbzv3_shenron_scale.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "40424c32-98ab-55f9-b686-5443af619ba8",
+      "name": "Sniper Magazine",
+      "path": "resources/item_dbzv3_sniper_magazine.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "8e573215-2b00-5e51-b35c-0bb51cfcc0b5",
+      "name": "Super Dragon Balls",
+      "path": "resources/item_dbzv3_super_dragon_balls.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "99674328-1ff8-5a29-b70c-16793818e051",
+      "name": "Ultra Divine Water",
+      "path": "resources/item_dbzv3_ultra_divine_water.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "e9cb7017-2a4c-54b0-8929-dcad38aa4743",
+      "name": "Vitadrink (Health Potion)",
+      "path": "resources/item_dbzv3_vitadrink_health_potion.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "fb9633ef-59fd-51e6-8128-8f7797044454",
+      "name": "Weighted Training Gear",
+      "path": "resources/item_dbzv3_weighted_training_gear.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_android",
+      "name": "Android",
+      "path": "resources/race_android.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_arcosian",
+      "name": "Arcosian",
+      "path": "resources/race_arcosian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_beastmen",
+      "name": "Beastmen",
+      "path": "resources/race_beastmen.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_bio_android_optional",
+      "name": "Bio-Android (Optional)",
+      "path": "resources/race_bio_android_optional.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_ceralians",
+      "name": "Ceralians",
+      "path": "resources/race_ceralians.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_chronin",
+      "name": "Chronin",
+      "path": "resources/race_chronin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_earthling",
+      "name": "Earthling",
+      "path": "resources/race_earthling.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_greys",
+      "name": "Greys",
+      "path": "resources/race_greys.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_konatsian",
+      "name": "Konatsian",
+      "path": "resources/race_konatsian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_majin",
+      "name": "Majin",
+      "path": "resources/race_majin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_mashin_jin",
+      "name": "Mashin-jin",
+      "path": "resources/race_mashin_jin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_namekian",
+      "name": "Namekian",
+      "path": "resources/race_namekian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_ogre",
+      "name": "Ogre",
+      "path": "resources/race_ogre.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_saiyans",
+      "name": "Saiyans",
+      "path": "resources/race_saiyans.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_sateery",
+      "name": "Sateery",
+      "path": "resources/race_sateery.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_sekhmen_jin",
+      "name": "Sekhmen-jin",
+      "path": "resources/race_sekhmen_jin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_shinling",
+      "name": "Shinling",
+      "path": "resources/race_shinling.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "dbzv3_yardratian",
+      "name": "Yardratian",
+      "path": "resources/race_yardratian.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "7b4b6f11-1dbb-581b-bc8d-87437b7b7282",
+      "name": "DBZ Pistol",
+      "path": "resources/weapon_dbzv3_dbz_pistol.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "d27f5d4d-61cf-5760-973d-4f291caf65bc",
+      "name": "DBZ Rifle",
+      "path": "resources/weapon_dbzv3_dbz_rifle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "4ee8cfb4-118d-5b3f-974d-5903835ad275",
+      "name": "DBZ Sniper Rifle",
+      "path": "resources/weapon_dbzv3_dbz_sniper_rifle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "1e646b0e-b038-5bf7-b4b5-553c14e0c7e3",
+      "name": "Laser Daggers",
+      "path": "resources/weapon_dbzv3_laser_daggers.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "9c2dfabc-afdb-547e-a348-140afe659210",
+      "name": "Laser Greatsword",
+      "path": "resources/weapon_dbzv3_laser_greatsword.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "e155ad33-03be-54d5-b506-801ba2146ba2",
+      "name": "Laser Halberd",
+      "path": "resources/weapon_dbzv3_laser_halberd.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "4bfc90e6-1062-56f1-99ad-8d55c3b3e307",
+      "name": "Laser Javelin",
+      "path": "resources/weapon_dbzv3_laser_javelin.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "ee8f6e7c-0474-547f-9181-5fb5c9d596e6",
+      "name": "Laser Longsword",
+      "path": "resources/weapon_dbzv3_laser_longsword.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "a0e19dc9-b103-578e-990d-77a5c6f03d12",
+      "name": "Laser Pistol",
+      "path": "resources/weapon_dbzv3_laser_pistol.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "5e1ee843-0b8d-52b6-b482-1a396d71de4a",
+      "name": "Laser Rifle",
+      "path": "resources/weapon_dbzv3_laser_rifle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "5da53f0c-aebf-5f3c-865d-a164f2178a7a",
+      "name": "Laser Shortsword",
+      "path": "resources/weapon_dbzv3_laser_shortsword.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    },
+    {
+      "id": "d0c0abf5-10ef-584a-847f-bb4265e74472",
+      "name": "Laser Sniper Rifle",
+      "path": "resources/weapon_dbzv3_laser_sniper_rifle.rpg",
+      "updated_at": "2026-11-11T00:00:00"
+    }
+  ]
+}
