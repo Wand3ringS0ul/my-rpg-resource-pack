@@ -25,10 +25,10 @@ The resources are JSON-syntax-checked, **not compiled or import-tested**. This c
 - [x] Source conversion and Windows publishing kit prepared in the ChatGPT conversation.
 - [x] Publishing instructions added to this repository.
 - [ ] Obtain permission to redistribute the third-party homebrew descriptions publicly.
-- [ ] Upload the complete prepared 5e source conversion.
-- [ ] Compile the combined official 5e system and conversion using **RPG Companion Dev Tool**.
+- [x] Upload the complete prepared 5e source conversion (**542 files committed**).
+- [ ] Compile the combined official 5e system and conversion using **RPG Companion Dev Tool** (GitHub Actions > **Prepare 5e Dev Tool workspace** can generate a downloadable combined workspace).
 - [ ] Upload compiled `systems.json`, `systems.rpg`, and `5e/` at the repository root.
-- [ ] Enable GitHub Pages (`main` / `/(root)`) and test the hosted URLs.
+- [ ] Deploy and test GitHub Pages. The workflow **Deploy compiled RPG Companion pack to GitHub Pages** is configured to deploy after compiled release files are committed; repository Pages settings may still require activation or authorization.
 - [ ] Verify the imported resources in RPG Companion.
 
 [Official manual publishing instructions](https://docs.rpg-companion.app/GettingStarted/HostingAResourceRepo) · [RPG Companion Dev Tool](https://rpg-companion.app/dev) · [Project publishing steps](PUBLISHING_STEPS.md)
